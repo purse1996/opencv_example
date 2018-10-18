@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( fourierTransform )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(fourierTransform fourier_transform.cpp )
+target_link_libraries( fourierTransform ${OpenCV_LIBS} )

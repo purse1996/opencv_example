@@ -1,0 +1,3 @@
+/home/shuaibin/opencv_workspace/examples/videoInput/CMakeFiles/edit_cache.dir
+/home/shuaibin/opencv_workspace/examples/videoInput/CMakeFiles/rebuild_cache.dir
+/home/shuaibin/opencv_workspace/examples/videoInput/CMakeFiles/videoInput.dir

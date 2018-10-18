@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( morOperation )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(morOperation morOperation.cpp )
+target_link_libraries( morOperation ${OpenCV_LIBS} )

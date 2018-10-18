@@ -1,0 +1,3 @@
+/home/shuaibin/opencv_workspace/examples/morpho_ope/CMakeFiles/edit_cache.dir
+/home/shuaibin/opencv_workspace/examples/morpho_ope/CMakeFiles/rebuild_cache.dir
+/home/shuaibin/opencv_workspace/examples/morpho_ope/CMakeFiles/morOperation.dir
