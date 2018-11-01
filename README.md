@@ -1,3 +1,2 @@
-# opencv_example
-some opencv examples
-c/c++
+#C++
+some examples of opencv
