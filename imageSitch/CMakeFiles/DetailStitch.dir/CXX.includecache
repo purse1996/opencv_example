@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bywind/myopencv/example/imageSitch/DetailStitch.cpp
+/home/bywind/myopencv/opencv_example/imageSitch/DetailStitch.cpp
 iostream
 -
 fstream
@@ -14,34 +14,34 @@ fstream
 string
 -
 opencv2/opencv_modules.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/opencv_modules.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/opencv_modules.hpp
 opencv2/core/utility.hpp
 -
 opencv2/imgcodecs.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/imgcodecs.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/highgui.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/highgui.hpp
 opencv2/stitching/detail/autocalib.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/autocalib.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/autocalib.hpp
 opencv2/stitching/detail/blenders.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/blenders.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/blenders.hpp
 opencv2/stitching/detail/timelapsers.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/timelapsers.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/timelapsers.hpp
 opencv2/stitching/detail/camera.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/camera.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/camera.hpp
 opencv2/stitching/detail/exposure_compensate.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/exposure_compensate.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/exposure_compensate.hpp
 opencv2/stitching/detail/matchers.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/matchers.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/matchers.hpp
 opencv2/stitching/detail/motion_estimators.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/motion_estimators.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/motion_estimators.hpp
 opencv2/stitching/detail/seam_finders.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/seam_finders.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/seam_finders.hpp
 opencv2/stitching/detail/warpers.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/detail/warpers.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/detail/warpers.hpp
 opencv2/stitching/warpers.hpp
-/home/bywind/myopencv/example/imageSitch/opencv2/stitching/warpers.hpp
-opencv2/nofree/nofree.hpp
+/home/bywind/myopencv/opencv_example/imageSitch/opencv2/stitching/warpers.hpp
+opencv2/xfeatures2d.hpp
 -
 
 /usr/local/include/opencv/cxcore.h
@@ -1361,4 +1361,18 @@ opencv2/videostab/global_motion.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
+
+/usr/local/include/opencv2/xfeatures2d.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv2/opencv2/features2d.hpp
+opencv2/xfeatures2d/nonfree.hpp
+/usr/local/include/opencv2/opencv2/xfeatures2d/nonfree.hpp
+
+/usr/local/include/opencv2/xfeatures2d/cuda.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv2/xfeatures2d/opencv2/core/cuda.hpp
+
+/usr/local/include/opencv2/xfeatures2d/nonfree.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv2/xfeatures2d/opencv2/features2d.hpp
 

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( my_feature )
+find_package( OpenCV REQUIRED )
+include_directories(${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS} )
+add_executable(my_feature my_feature.cpp )
+target_link_libraries( my_feature ${catkin_INCLUDE_DIRS} ${OpenCV_LIBS} )

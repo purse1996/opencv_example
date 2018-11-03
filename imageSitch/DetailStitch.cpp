@@ -15,7 +15,8 @@
 #include "opencv2/stitching/detail/seam_finders.hpp"
 #include "opencv2/stitching/detail/warpers.hpp"
 #include "opencv2/stitching/warpers.hpp"
-#include <opencv2/nofree/nofree.hpp>
+// #include <opencv2/nofree/nofree.hpp>
+#include<opencv2/xfeatures2d.hpp>
 
 
 #define ENABLE_LOG 1
@@ -378,7 +379,7 @@ int main(int argc, char* argv[])
 #endif
     // 第一步 寻找特征点 surf 或者 orb特征
 
-    cv::initModule_nonfree();
+    // cv::initModule_nonfree();
 
     Ptr<FeaturesFinder> finder; //Ptr是opencv中智能指针
     if (features_type == "surf")
