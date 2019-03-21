@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8)
+add_definitions(-std=c++11)
+project( fisheyeCalibration )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( fisheyeCalibration fisheyeCalibration.cpp )
+target_link_libraries( fisheyeCalibration ${OpenCV_LIBS} )
+
+project( mycalibra )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( mycalibra mycalibra.cpp )
+target_link_libraries( mycalibra ${OpenCV_LIBS} )
