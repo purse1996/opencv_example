@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/smooth_pic/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/smooth_pic/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/smooth_pic/CMakeFiles/smoothPic.dir

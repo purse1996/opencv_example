@@ -1,3 +1,0 @@
-/home/bywind/myopencv/opencv_example/feature/CMakeFiles/rebuild_cache.dir
-/home/bywind/myopencv/opencv_example/feature/CMakeFiles/edit_cache.dir
-/home/bywind/myopencv/opencv_example/feature/CMakeFiles/my_feature.dir

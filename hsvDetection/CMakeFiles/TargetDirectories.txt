@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/hsvDetection/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/hsvDetection/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/hsvDetection/CMakeFiles/hsvDetection.dir

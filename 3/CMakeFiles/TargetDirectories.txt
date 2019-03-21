@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/3/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/3/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/3/CMakeFiles/BasicModuleExample.dir

@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/day10_2/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/day10_2/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/day10_2/CMakeFiles/myRemapping.dir

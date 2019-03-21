@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/imageMoment/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/imageMoment/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/imageMoment/CMakeFiles/imageMoment.dir

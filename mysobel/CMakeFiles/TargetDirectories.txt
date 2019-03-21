@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/mysobel/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/mysobel/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/mysobel/CMakeFiles/mySobel.dir

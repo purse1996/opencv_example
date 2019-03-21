@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/videoMake/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/videoMake/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/videoMake/CMakeFiles/videoMake.dir

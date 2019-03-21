@@ -13,120 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef04d72-0e70-4664-bbf4-b32206658433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/fisheyeCalibration.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/fisheyeCalibration.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/calib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/fisheyeCalibration" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/fisheyeCalibration" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/build/output/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fisheyeCalibration/build/output/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/fisheyeCalibration.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fisheyeCalibration/cmake-build-debug/fisheyeCalibration.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../imageSitch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/DetailStitch.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/DetailStitch.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../imageSitch/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/DetailStitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../imageSitch/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imageSitch/imageStich.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../imageSitch/imageStich.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageStitch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/imageStitch.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,16 +36,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/featureFinder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="588">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/featureMatch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="398">
               <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
             </state>
           </provider>
@@ -166,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
+            <state relative-caret-position="900">
               <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
             </state>
           </provider>
@@ -175,17 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/findSeam.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2445">
-              <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+            <state relative-caret-position="123">
+              <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imageStitch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
+            <state relative-caret-position="110">
+              <caret line="325" column="69" lean-forward="true" selection-start-line="325" selection-start-column="69" selection-end-line="325" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -200,19 +88,19 @@
       <list>
         <option value="$PROJECT_DIR$/undistored.cpp" />
         <option value="$PROJECT_DIR$/featureFinder.cpp" />
-        <option value="$PROJECT_DIR$/imageStitch.cpp" />
         <option value="$PROJECT_DIR$/spherProject.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/findSeam.cpp" />
         <option value="$PROJECT_DIR$/featureMatch.cpp" />
+        <option value="$PROJECT_DIR$/imageStitch.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1215" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,17 +159,18 @@
       <workItem from="1550826281124" duration="13000" />
       <workItem from="1552359800216" duration="599000" />
       <workItem from="1552362540276" duration="625000" />
+      <workItem from="1553133746239" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12766000" />
+    <option name="totallyTimeSpent" value="13394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="65" y="-4" width="1215" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14997233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15226689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,7 +182,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14362851" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14317425" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,36 +210,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/featureFinder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="588">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureMatch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
+        <state relative-caret-position="900">
           <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findSeam.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2445">
-          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="123">
+          <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imageStitch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureMatch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="110">
+          <caret line="325" column="69" lean-forward="true" selection-start-line="325" selection-start-column="69" selection-end-line="325" selection-end-column="69" />
         </state>
       </provider>
     </entry>

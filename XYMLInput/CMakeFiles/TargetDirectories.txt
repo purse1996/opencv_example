@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/XYMLInput/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/XYMLInput/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/XYMLInput/CMakeFiles/XYMLInput.dir

@@ -342,7 +342,7 @@ int main(int argc, char** argv)
         //resize(dilated_mask, tem, mask_warped.size(), 0, 0, INTER_LINEAR_EXACT);
         masks_warped[k].copyTo(tem);
         masks_seam_new[k] = masks_seam_new[k] & tem;
-        blender->feed(images_warped_s[k], masks_seam[k], corners[k]);    //初始化数据
+        blender->feed(images_warped_s[k], masks_seam_new[k], corners[k]);    //初始化数据
         cout<<"处理完成"<<k<<"图片"<<endl;
     }
 

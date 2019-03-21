@@ -1,3 +1,0 @@
-/home/shuaibin/opencv_workspace/examples/fourier_transform/CMakeFiles/edit_cache.dir
-/home/shuaibin/opencv_workspace/examples/fourier_transform/CMakeFiles/rebuild_cache.dir
-/home/shuaibin/opencv_workspace/examples/fourier_transform/CMakeFiles/fourierTransform.dir

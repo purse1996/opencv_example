@@ -1,3 +1,0 @@
-/home/bywind/myopencv/opencv_example/imageSitch/CMakeFiles/edit_cache.dir
-/home/bywind/myopencv/opencv_example/imageSitch/CMakeFiles/rebuild_cache.dir
-/home/bywind/myopencv/opencv_example/imageSitch/CMakeFiles/DetailStitch.dir

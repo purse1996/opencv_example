@@ -1,3 +1,0 @@
-/home/bywind/myopencv/example/cameraCalibration/CMakeFiles/rebuild_cache.dir
-/home/bywind/myopencv/example/cameraCalibration/CMakeFiles/edit_cache.dir
-/home/bywind/myopencv/example/cameraCalibration/CMakeFiles/MyCameraCalibration.dir
