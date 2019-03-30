@@ -1,0 +1,8 @@
+../morning/0.jpg
+../morning/1.jpg
+../morning/2.jpg
+../morning/3.jpg
+../morning/4.jpg
+../morning/5.jpg
+../morning/6.jpg
+../morning/7.jpg

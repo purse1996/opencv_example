@@ -1,7 +1,3 @@
-//
-// Created by byiwind on 19-2-21.
-//
-
 #include <fstream>
 #include <string>
 #include<iostream>
@@ -25,85 +21,23 @@ using namespace std;
 using namespace cv;
 using namespace cv::detail;
 
-//void findMaxSpanningTree(int num_images, const std::vector<MatchesInfo> &pairwise_matches,
-//                             Graph &span_tree, std::vector<int> &centers);
+
+
+
+bool readCamera(const string& filename, Mat& cameraMatrix, Mat& distCoeffs,  float& ratio);
 
 int main(int argc, char** argv)
 {
-    vector<Mat> imgs;    //输入9幅图像
-    Mat img;
-    // 第一组测试数据
-//    img = imread("8mm_16mm/1.jpg");
-//    imgs.push_back(img);
-//    img = imread("8mm_16mm/2.jpg");
-//    imgs.push_back(img);
-//    img = imread("8mm_16mm/3.jpg");
-//    imgs.push_back(img);
-//
-//    img = imread("8mm_16mm/4.jpg");
-//    imgs.push_back(img);
-    //   imgs.push_back(img);
-//    // 第二组测试数据
-//    img = imread("4.2mm/0.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/1.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/2.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/3.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/4.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/5.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/6.jpg");
-//    imgs.push_back(img);
-//    img = imread("4.2mm/7.jpg");
-//    imgs.push_back(img);
-    // 第三组测试数据
-//    img = imread("5mm/1.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/2.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/3.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/4.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/5.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/6.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/7.jpg");
-//    imgs.push_back(img);
-//    img = imread("5mm/8.jpg");
-//    imgs.push_back(img);
+    vector<Mat> imgs;
+    ifstream fin("../img.txt");
+    string img_name;
+    while(getline(fin, img_name))
+    {
+        Mat img = imread(img_name);
+        //resize(img, img, Size(), 0.25, 0.25);
+        imgs.push_back(img);
+    }
 
-
-    // 第四组测试数据
-//    img = imread("test01/1.jpg");
-//    imgs.push_back(img);
-//    img = imread("test01/2.png");
-//    imgs.push_back(img);
-
-
-
-//    img = imread("15.jpg");
-//    imgs.push_back(img);
-//    img = imread("16.jpg");
-//    imgs.push_back(img);
-//    img = imread("17.jpg");
-//    imgs.push_back(img);
-//    img = imread("18.jpg");
-//    imgs.push_back(img);
-    //img = imread("9.jpg");
-    //imgs.push_back(img);
-
-
-
-    img = imread("1_new.jpg");
-    imgs.push_back(img);
-    img = imread("2_new.jpg");
-    imgs.push_back(img);
 
 
     int num_images = imgs.size();    //图像数量
@@ -117,10 +51,9 @@ int main(int argc, char** argv)
         (*finder)(imgs[i], features[i]);    //特征检测
     cout<<"特征提取完毕"<<endl;
     vector<MatchesInfo> pairwise_matches;    //表示特征匹配信息变量
-    BestOf2NearestMatcher matcher(false, 0.3f, 6, 6);    //定义特征匹配器，2NN方法
+    BestOf2NearestMatcher matcher(false, 0.4f, 6, 6);    //定义特征匹配器，2NN方法
     matcher(features, pairwise_matches);    //进行特征匹配
     /*打印图像之间的匹配关系匹配*/
-
     for(size_t i=0; i<num_images; i++)
         for(size_t j=0; j<num_images; j++)
         {
@@ -130,32 +63,6 @@ int main(int argc, char** argv)
                 <<pairwise_matches[i*num_images+j].confidence<<endl;
         }
 
-
-    /*根据阈值来判断图片之间的匹配关系*/
-    // vector<Mat> img_subset;
-    // vector<Mat>
-//    float conf_thresh = 0;
-//    vector<Mat> imgs_subset;
-//    vector<int> indices = leaveBiggestComponent(features, pairwise_matches, conf_threshold);
-//    for(size_t i=0; i<indices.size(); i++)
-//    {
-//        imgs_subset.push_back(imgs[i]);
-//    }
-//    if(imgs_subset.size()<2)
-//    {
-//        cout<<"该全景图需要更多图片，"<<endl;
-//    }
-
-
-    /*判断图像之间的相互关系，并寻找基准图像*/
-    //const int node_number = static_cast<int>(features.size());
-//    int node_number = static_cast<int>(features.size());
-//    cout<<"树节点数量"<<node_number<<endl;
-//    Graph span_tree;
-//    std::vector<int> span_tree_centers;
-//    findMaxSpanningTree(node_number, pairwise_matches, span_tree, span_tree_centers);
-//    for(size_t i=0; i<span_tree_centers.size(); i++)
-//        cout<<"核心节点包括"<<span_tree_centers[i]<<endl;
 
     cout<<"特征匹配完毕"<<endl;
     HomographyBasedEstimator estimator;    //定义参数评估器
@@ -245,18 +152,6 @@ int main(int argc, char** argv)
     cout<<"最终选择的图像的焦距为"<<warped_image_scale<<endl;
     Ptr<RotationWarper> warper = warper_creator->create(static_cast<float>(warped_image_scale));
 
-    // 分开进行投影试试:
-//    Mat_<float> temp;
-//    cameras[0].K().convertTo(temp, CV_32F);
-//    corners[0] = warper->warp(imgs[0], temp, cameras[0].R, INTER_LINEAR, BORDER_REFLECT, images_warped[0]);
-//    sizes[0] = images_warped[0].size();
-//    cout<<"width:  "<<sizes[0].width<<"height:  "<<sizes[0].height<<endl;
-//    warper->warp(masks[0], temp, cameras[0].R, INTER_NEAREST, BORDER_CONSTANT, masks_warped[0]);
-
-
-
-    // ostringstream stream;
-    //Mat temp;
     for (int i = 0; i < num_images; ++i)
     {
         Mat_<float> K;
@@ -269,12 +164,6 @@ int main(int argc, char** argv)
         //得到变换后的图像掩码
         warper->warp(masks[i], K, cameras[i].R, INTER_NEAREST, BORDER_CONSTANT, masks_warped[i]);
 
-//      stream<<i;
-//      images_warped[i].copyTo(temp);// 将Umat矩阵转换为Mat,Mat转换为UMat也可以使用该方法
-//      imwrite(stream.str()+"bundle.jpg", temp);
-//      namedWindow("display image", WINDOW_NORMAL);
-//      imshow("display image", images_warped[i]);
-//      waitKey(0);
     }
 
 
@@ -298,11 +187,11 @@ int main(int argc, char** argv)
     Ptr<SeamFinder> seam_finder;    //定义接缝线寻找器
     //seam_finder = new NoSeamFinder();    //无需寻找接缝线
     //seam_finder = new VoronoiSeamFinder();    //逐点法
-    //seam_finder = new DpSeamFinder(DpSeamFinder::COLOR);    //动态规范法
+    seam_finder = new DpSeamFinder(DpSeamFinder::COLOR);    //动态规范法
     //seam_finder = new DpSeamFinder(DpSeamFinder::COLOR_GRAD);
     //图割法
     //seam_finder = new GraphCutSeamFinder(GraphCutSeamFinder::COST_COLOR);
-    seam_finder = new GraphCutSeamFinder(GraphCutSeamFinder::COST_COLOR_GRAD);
+    //seam_finder = new GraphCutSeamFinder(GraphCutSeamFinder::COST_COLOR_GRAD);
 
     vector<UMat> images_warped_f(num_images);
     for (int i = 0; i < num_images; ++i)    //图像数据类型转换
@@ -316,15 +205,15 @@ int main(int argc, char** argv)
     vector<Mat> images_warped_s(num_images);
     Ptr<Blender> blender;    //定义图像融合器
 
-    blender = Blender::createDefault(Blender::NO, false);    //简单融合方法
+    //blender = Blender::createDefault(Blender::NO, false);    //简单融合方法
     //羽化融合方法
 //    blender = Blender::createDefault(Blender::FEATHER, false);
 //    FeatherBlender* fb = dynamic_cast<FeatherBlender*>(static_cast<Blender*>(blender));
 //    fb->setSharpness(0.005);    //设置羽化锐度
 
-//    blender = Blender::createDefault(Blender::MULTI_BAND, false);    //多频段融合
-//    MultiBandBlender* mb = dynamic_cast<MultiBandBlender*>(static_cast<Blender*>(blender));
-//    mb->setNumBands(8);   //设置频段数，即金字塔层数
+    blender = Blender::createDefault(Blender::MULTI_BAND, false);    //多频段融合
+    MultiBandBlender* mb = dynamic_cast<MultiBandBlender*>(static_cast<Blender*>(blender));
+    mb->setNumBands(8);   //设置频段数，即金字塔层数
 
     blender->prepare(corners, sizes);    //生成全景图像区域
     cout<<"生成全景图像区域"<<endl;

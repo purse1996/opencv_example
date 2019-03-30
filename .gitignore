@@ -1,9 +1,11 @@
 # ignore CMakeFiles in any folder
 CMakeFiles/
 build/
+cmake-build-debug/
 
 # ignore CMakeCache.txt in any folder
 *CMakeCache.txt
 *cmake_install.cmake
 *.exe
 *Makefile
+*.jpg

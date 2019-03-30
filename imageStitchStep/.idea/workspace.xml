@@ -13,8 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef04d72-0e70-4664-bbf4-b32206658433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageStitch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/imageStitch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imageSitch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../imageSitch/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imageSitch/DetailStitch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imageSitch/feature" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,12 +160,12 @@
       <workItem from="1550826281124" duration="13000" />
       <workItem from="1552359800216" duration="599000" />
       <workItem from="1552362540276" duration="625000" />
-      <workItem from="1553133746239" duration="628000" />
+      <workItem from="1553133746239" duration="1228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13394000" />
+    <option name="totallyTimeSpent" value="13994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="1028" extended-state="6" />
